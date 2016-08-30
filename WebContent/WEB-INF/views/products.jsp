@@ -2,6 +2,7 @@
 	pageEncoding="UTF-8"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
 <!Doctype html>
 <html>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
@@ -21,6 +22,11 @@
 	<section>
 		<div class="jumbotron">
 			<div class="container">
+				<div class="username">
+				 	<label id="loginUser" class="pull-right sumus">Welcome,
+				 	 <strong><sec:authentication property="principal.username"/></strong>
+				 	</label> 
+				 </div>
 				<a href="<spring:url value="/j_spring_security_logout " />"
 					class="btn btn-default btn-mini pull-right"> <span
 					class="glyphicon-log-out glyphicon"></span> logout
@@ -33,8 +39,6 @@
 				</a>
 				<h1>Products</h1>
 				<p>All the available products in our store</p>
-			</div>
-		</div>
 	</section>
 	
 	

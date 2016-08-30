@@ -50,6 +50,9 @@
 		class="org.springframework.web.servlet.view.json.MappingJackson2JsonView">
 		<property name="prettyPrint" value="true" />
 	</bean>
+ 
+	<bean id="webSecurityExpressionHandler" class="org.springframework.security.web.access.expression.DefaultWebSecurityExpressionHandler"/>
+	
 <!-- 
 	<bean id="mongo" class="org.springframework.data.mongodb.core.MongoFactoryBean">
 		<property name="host" value="localhost" />

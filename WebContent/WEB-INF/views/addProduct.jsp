@@ -3,6 +3,7 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@ taglib prefix="spring" uri="http://www.springframework.org/tags"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
+<%@ taglib prefix="sec" uri="http://www.springframework.org/security/tags"%>
 <!DOCTYPE html>
 <html>
 <head>
@@ -25,6 +26,11 @@
 	<section>
 		<div class="jumbotron">
 			<div class="container">
+				<div class="username">
+				 	<label id="loginUser" class="pull-right sumus">Welcome,
+				 	 <strong><sec:authentication property="principal.username"/></strong>
+				 	</label> 
+				 </div>
 				<a href="<spring:url value="/j_spring_security_logout " />"
 					class="btn btn-danger btn-mini pull-right">logout</a> <a
 					href='<c:url value="/products" />'

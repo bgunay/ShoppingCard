@@ -29,7 +29,7 @@ public class SeleniumLoginFrontendTest {
         browser.findElement(By.id("loginBtn")).click();
         browser.findElement(By.id("account")).click();
 
-        assertEquals("John", browser.findElement(By.id("name")).getAttribute("value"));
+        assertEquals("admin", browser.findElement(By.id("loginUser")).getAttribute("value"));
     }
 
     @After

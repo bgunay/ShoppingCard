@@ -12,5 +12,6 @@ How to import and build project?
 5. Go to Run As > Maven clean > Maven Install.
 
 
-MongoDB schema name: shoppingcard
+MongoDB schema name: shoppingcard.
+
 For create MongoDB sample categories, uncomment lines in CategoryRepositoryImpl getAllObjects() method.

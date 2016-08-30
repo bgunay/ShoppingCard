@@ -1,6 +1,6 @@
 WebStore
 =========
-WebStore v1.0 is a full fledged online shopping system built in Spring-MVC. It uses JSP for view templating and MySql is at the database end.
+WebStore v1.0 is a full fledged online shopping system built in Spring-MVC. It uses JSP for view templating and MongoDB is at the database end.
 
 
 How to import and build project?

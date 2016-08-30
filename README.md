@@ -15,3 +15,8 @@ How to import and build project?
 MongoDB schema name: shoppingcard.
 
 For create MongoDB sample categories, uncomment lines in CategoryRepositoryImpl getAllObjects() method.
+
+Screenshots
+
+![alt tag](https://raw.githubusercontent.com/bgunay/ShoppingCard/master/addProduct.JPG)
+![alt tag](https://raw.githubusercontent.com/bgunay/ShoppingCard/master/products.JPG)

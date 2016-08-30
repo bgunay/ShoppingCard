@@ -22,7 +22,6 @@ public class SeleniumLoginFrontendTest {
     public void startTest() {
         browser.get("http://localhost:8080/ShoppingCard/login");
 
-
         // Will throw exception if elements not found
         browser.findElement(By.id("username")).sendKeys("admin");
         browser.findElement(By.id("password")).sendKeys("admin");

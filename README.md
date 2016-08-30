@@ -9,5 +9,5 @@ How to import and build project?
 2. Import in Eclipse as maven project
 3. Go to Project Properties > Java Compiler > JDK Compliance and  adjust JDK Compliance accoriding to your JDK version.
 4. Go to Project Properties > Java Build Path > Libraries and adjust JRE system library
-5. Go to Run As > Maven clean > Maven Install
+5. Go to Run As > Maven clean > Maven Install.
 

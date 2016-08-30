@@ -20,3 +20,4 @@ Screenshots:
 
 https://cloud.githubusercontent.com/assets/3852424/18110302/d0597ddc-6f1f-11e6-9841-130548d47060.JPG
 https://cloud.githubusercontent.com/assets/3852424/18110303/d05b60c0-6f1f-11e6-9460-12ffa10089e6.JPG
+https://cloud.githubusercontent.com/assets/3852424/18110647/ed296380-6f21-11e6-8736-e089638fbdb4.JPG

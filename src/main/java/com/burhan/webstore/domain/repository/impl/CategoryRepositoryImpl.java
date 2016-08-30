@@ -31,6 +31,8 @@ public class CategoryRepositoryImpl implements MyMongoRepository<Category>, Cato
 	 * Get all Categorys.
 	 */
 	public List<Category> getAllObjects() {
+		//these line create new category data in mongodb
+		
 		//dropCollection();
 		//createCollection();
 		//Category category = new Category("1", "electronics", "");

@@ -1,6 +1,6 @@
-WebStore
+ShoppingCard
 =========
-WebStore v1.0 is a full fledged online shopping system built in Spring-MVC. It uses JSP for view templating and MongoDB is at the database end.
+Shoppingcard v1.0 is a online shopping system built in Spring-MVC. It uses JSP for view templating and MongoDB is at the database end.
 
 
 How to import and build project?
